@@ -53,7 +53,7 @@ const parseValue = (value: string): [number | null, number | null] => {
 
 //@ts-ignore
 const LocationInput = ({ value, onChange, name, attribute }) => {
-  const [defLat, defLng] = [49.195678016117164, 16.608182539182483];
+  const [defLat, defLng] = [54.404069, 9.769903];
   const [[lat, lng], setLocation] = useState(parseValue(value));
   const [isModalVisible, setIsModalVisible] = useState(false);
 
